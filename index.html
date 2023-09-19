@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit's Portfolio</title>
+    <link rel="shortcut icon" type="image" href="images/icon dark.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/18de706472.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2>My Portfolio</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Amit</span><br> Modi from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p><b>Hello, I'm Amit Modi</b><br>I'm a new web developer who loves making websites that look great and work well. I've recently finished my studies and I'm excited to begin my journey in web development.I know how to use HTML, CSS, and JavaScript to create websites that people can interact with. While I'm just starting out, I've learned a lot already, especially about making websites look good.I'm eager to keep learning and stay updated with the latest web development trends. I believe in working together with others who love building cool web stuff as much as I do.Outside of web development, I enjoy taking on new challenges, trying out creative design ideas, and sometimes helping out with open-source projects.I'm really excited about what's ahead in web development, and I'm ready to use my skills for interesting projects. If you want to get in touch or talk about working together, please feel free to contact me. <br>Let's make the web awesome together!</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI designer</span><br>Designing Web/App interfaces</li>
+                            <li><span>Frontend Developer</span><br>Web/App Development</li>
+                            <li><span>Webflow Developer</span><br>Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Content creator at Youtube - Curious Niraj </li>
+                            <li><span>Jul 2023- Aug 2023</span><br> Internship at Aglint</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>MCA from Asansol Engineering College, Asansol</li>
+                            <li><span>2021</span><br>BCA from Asansol Engineering College, Asansol</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ---------------------experties----------------------- -->
+
+<div id="experties">
+    <div class="container">
+        <h1 class="sub-title">My Experties</h1>
+        <div class="experties-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm skilled in web design and can create beautiful websites. I have the knowledge to make them look great, and I can also bring them to life. If you need a website, I've got you covered!</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>UI Design</h2>
+                <p>I have expertise in UI design, crafting visually appealing user interfaces. My skills extend to creating attractive designs and implementing them effectively. If you're seeking an impressive user interface, I'm your go-to designer!</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                <h2>Webflow Design</h2>
+                <p>I'm experienced in Webflow design, creating websites with style. I can craft appealing designs and bring them to life using Webflow's power. If you're looking for a Webflow designer, I've got the skills you need!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------certificate----------------------- -->
+
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="images/Certificate-1.png">
+                <div class="layer">
+                    <h3>Certificate-1</h3>
+                    <p>Completion certificate of <b>Webflow 101</b></p>
+                    <a href="images/Webflow Certificate.png" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate-2.png">
+                <div class="layer">
+                    <h3>Certificate-2</h3>
+                    <p>Coursera certificate of <b>Introduction to Java</b></p>
+                    <a href="images/Coursera Certificate.png" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate-3.png">
+                <div class="layer">
+                    <h3>Certificate-3</h3>
+                    <p>NPTEL certificate of <b>Introduction to Internet of Things</b></p>
+                    <a href="images/NPTEL Certificate.png" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- ---------------------contact----------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> amit.modi241199@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen"></i> +919064586649</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/amit.modi.241199" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/amitmodi241199/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/amitmodi241199/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a class="btn btn2" href="images/Amit resume.pdf" target="_blank">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <span id="response"></span>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------javascript----------------------- -->
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var SideMenu = document.getElementById("sidemenu");
+                function openmenu(){
+                    SideMenu.style.right= "0";
+                }
+                function closemenu(){
+                    SideMenu.style.right= "-180px";
+                }
+    </script>
+    
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAZhDnqt4HxdkdbvWO4VURitF3Mhf3mRUBYycrNNJBT6FxLGjOG9waxsfZ95ZtoKq5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const res = document.getElementById("response")
+    
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            res.innerHTML ="Submitted Successfully..!!!"
+            setTimeout(function(){
+                res.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+      
+</body>
+</html>
