@@ -392,7 +392,8 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .about-col-1{
-        margin-top: 30px;
+        margin-top: -100px;
+        margin-bottom: 10px;
     }
     .about-col-2{
         font-size: 14px;
