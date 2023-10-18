@@ -51,7 +51,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #fff;
+    background: #129bea;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -60,9 +60,6 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
-}
-nav ul li a:hover{
-    color: #129bea;
 }
 
 .header-text{
