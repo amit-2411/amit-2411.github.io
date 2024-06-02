@@ -160,7 +160,7 @@ nav ul li a:hover::after{
     background: #2d2d2d;
     padding: 40px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s ;
 }
