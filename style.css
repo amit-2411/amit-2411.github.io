@@ -196,10 +196,9 @@ nav ul li a:hover::after{
     padding: 50px 0;
 }
 
-.certificate-list {
+.certificate-list{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-    grid-template-rows: repeat(2, auto); /* Creates 2 rows with automatic height */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
