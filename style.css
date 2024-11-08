@@ -101,6 +101,7 @@ nav ul li a:hover::after{
 
 .about-col-2 ul li{
     margin-left: 16px;
+    margin-bottom: 8px;
 }
 .sub-title{
     font-size: 60px;
