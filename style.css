@@ -87,7 +87,7 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 40%;
     align-items: center;
     justify-content: center;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover::after{
     margin-top: 60px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 .about-col-2 ul li{
